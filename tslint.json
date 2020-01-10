@@ -1,0 +1,65 @@
+{
+  "rules": {
+    "adjacent-overload-signatures": true,
+    "member-access": [true, "check-accessor", "check-constructor"],
+    "no-empty-interface": true,
+    "no-for-in": true,
+    "curly": [true, "as-needed", "ignore-same-line"],
+    "no-console": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-invalid-template-strings": true,
+    "no-return-await": true,
+    "switch-default": true,
+    "triple-equals": true,
+    "unnecessary-constructor": true,
+    "max-classes-per-file": [true, 1],
+    "no-duplicate-imports": true,
+    "arrow-return-shorthand": true,
+    "comment-format": [true, "check-space"],
+    "interface-name": [true, "always-prefix"],
+    "new-line-per-chained-call": true,
+    "one-line": [true, "check-catch", "check-finally", "check-else", "check-open-brace", "check-whitespace"],
+    "prefer-method-signature": true,
+    "prefer-template": true,
+    "space-before-function-paren": [true, "always"],
+    "space-within-parens": true,
+    "eofline": true,
+    "import-spacing": true,
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "indent": [true, "spaces", 2],
+    "max-line-length": [true, 120],
+    "newline-before-return": true,
+    "new-parens": true,
+    "no-trailing-whitespace": true,
+    "number-literal-format": true,
+    "semicolon": [true, "always"],
+    "quotemark": [true, "double", "avoid-template", "avoid-escape"],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "trailing-comma": [
+      true, 
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-module",
+      "check-type-operator",
+      "check-preblock",
+      "check-postbrace"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "typescript-starter-pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "hot": "nodemon --exec babel-node --extensions .ts src/index.ts",
+    "lint": "tslint \"src/**/*.ts\"",
+    "lint:fix": "tslint \"src/**/*.ts\" --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.3.1",
+    "jwks-rsa": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/express": "^4.17.2",
+    "nodemon": "^1.19.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "description": ""
+}
